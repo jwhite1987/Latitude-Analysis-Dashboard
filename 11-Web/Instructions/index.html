@@ -3,17 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.80.0">
     <title>Project</title>
-
-    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/"> -->
-
-
-
     <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -29,97 +21,87 @@
         }
       }
     </style>
-
-
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
   </head>
   <body>
 
-<!-- <header> -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <a class="navbar-brand" href="index.html"><img src="white_house.png" height=20px>  Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Plots
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Plot 1</a></li>
-            <li><a class="dropdown-item" href="#">Plot 2</a></li>
-            <li><a class="dropdown-item" href="#">Plot 3</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Comparisons</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="cities.html">Data</a>
-        </li>
-      </ul>
-    </div>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plots
+            </a>
+            <!-- <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">Dropdown</a> -->
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Plot 1</a>
+              <a class="dropdown-item" href="#">Plot 2</a>
+              <a class="dropdown-item" href="#">Plot 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comparisons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cities.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<div class="py-5 px-3">
+  <div class="jumbotron text-center">
+    <h1 class="display-5">Project Summary</h1>
+    <p class="lead text-muted">Below is a description of the project completed earlier in the unit, enjoy!</p>
   </div>
-</nav>
-<!-- </header> -->
-<body class="d-flex h-100 text-dark" style="background-color: #ffffff;">
-
-
-</header>
-
-  <!-- <main class="px-3">
 
 <div class="container">
-  <div class="row">
-    <div class="col"> -->
-<main class="container">
-  <div class="row mb-2">
-    <div class="col-6">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
-        <div class="col p-4 d-flex flex-column position-static text-light">
-      <h1>Project Summary</h1>
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
-        <div class="col p-4 d-flex flex-column position-static text-light">
-          New Text
-        </div>
-      </div>
-  <div class="row">
-    <div class="col">
+<div class="row mb-2">
+<div class="col-6">
+  <div class="card bg-secondary mb-3" style="max-width: 50rem;">
+    <div class="card-header bg-info text-light">Project Requirements</div>
+    <div class="card-body">
+      <h4 class="card-title">Latitude vs. X</h4>
+      <p class="card-text">
+        Using the citipy and the Open Weather API, generate a list of cities, perform API calls to gather and plot the following data:
 
-        <h4> <span class="text-muted"><br>Part One:</span></h4>
-        <p>
-The first requirement is to create a series of scatter plots to showcase the following relationships:
-<br>
-* Temperature (F) vs. Latitude<br>
-* Humidity (%) vs. Latitude<br>
-* Cloudiness (%) vs. Latitude<br>
-* Wind Speed (mph) vs. Latitude<br>
-<br>
-</div>
-<div class="col">
-
-The second requirement is to run linear regression on each relationship.<br>
-<br>
-* Northern Hemisphere - Temperature (F) vs. Latitude<br>
-* Southern Hemisphere - Temperature (F) vs. Latitude<br>
-* Northern Hemisphere - Humidity (%) vs. Latitude<br>
-* Southern Hemisphere - Humidity (%) vs. Latitude<br>
-* Northern Hemisphere - Cloudiness (%) vs. Latitude<br>
-* Southern Hemisphere - Cloudiness (%) vs. Latitude<br>
-* Northern Hemisphere - Wind Speed (mph) vs. Latitude<br>
-* Southern Hemisphere - Wind Speed (mph) vs. Latitude
+      <ul>
+        <li>Temperature (F) vs. Latitude</li>
+        <li>Humidity (%) vs. Latitude</li>
+        <li>Cloudiness (%) vs. Latitude</li>
+        <li>Wind Speed (mph) vs. Latitude</li>
+      </ul>
+        After plotting the data, analyze the graphs and draw any conclusions, wholy conclusive or best hypothesis.
+      </p>
     </div>
   </div>
-  <div class="row">
-    <
+  <!-- <div class="col-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-light">
+      <div class="col p-4 d-flex flex-column position-static text-dark">
+        <h4> <span class="text-muted"><br>Part One:</span></h4> -->
+  </div>
+<!-- </div> -->
+<div class="col-6">
+  <div class="card bg-secondary mb-3 rounded" style="max-width: 50rem;">
+    <div class="card-header bg-info text-light">Visualizations</div>
+    <div class="card-body text-center">
+      <img src="Resources/assets/images/latitude_vs_cloudiness.png" class="img-thumbnail">
+      <hr class="my-4">
+      <img src="Resources/assets/images/latitude_vs_humidity.png" class="img-thumbnail">
+      <hr class="my-4">
+      <img src="Resources/assets/images/latitude_vs_temp.png" class="img-thumbnail">
+      <hr class="my-4">
+      <img src="Resources/assets/images/latitude_vs_windspeed.png" class="img-thumbnail">
+    </div>
+  </div>
+</div>
 
 
 <!-- After each pair of plots, take the time to explain what the linear regression is modeling. For example, describe any relationships you notice and any other analysis you may have.</p> -->
