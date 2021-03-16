@@ -38,7 +38,6 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Plots
           </a>
-          <!-- <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" id="navbarDropdown">Dropdown</a> -->
           <div class="dropdown-menu">
             <a class="dropdown-item" href="plot1.html">Plot 1</a>
             <a class="dropdown-item" href="plot2.html">Plot 2</a>
@@ -56,13 +55,17 @@
     </div>
   </nav>
 
-    <div class="text-center py-5 px-3">
-<main class="container">
+<div class="text-center py-5 px-3">
+<div class="container-fluid text-center">
     <!-- <div class="starter-template text-center py-5 px-3"> -->
-  <h2>Heading</h2>
-<table border="1" class="table table-sm table-hover table-info table-bordered" width="75%">
-  <thead>
-    <tr style="text-align: left;">
+    <div class="py-3 px-3">
+      <div class="jumbotron text-center">
+        <h1 class="display-5">City Dataset</h1>
+      </div>
+    </div>
+<table class="table-borderless table-hover" width="100%">
+  <thead class="table-info">
+    <tr class="text-center">
       <th>City ID</th>
       <th>City</th>
       <th>Cloudiness</th>
@@ -75,7 +78,7 @@
       <th>Wind Speed</th>
     </tr>
   </thead>
-  <tbody class="table table-secondary table-striped">
+  <tbody class="table-light table-borderless table-hover text-center">
     <tr>
       <td>0</td>
       <td>Jacareacanga</td>
