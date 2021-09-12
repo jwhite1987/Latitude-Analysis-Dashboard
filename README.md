@@ -3,7 +3,7 @@
 
 ## Project Description
 
-Using the previous project of Latitude Analysis, the goal of this project is to build a website must consist of 7 pages total, including:
+Using the previous project of Latitude Analysis, the goal of this project is to build a website consisting of 7 pages total, including:
 
 * A landing page containing:
   * An explanation of the project.
