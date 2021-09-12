@@ -32,6 +32,8 @@ Using the previous project of Latitude Analysis, the goal of this project is to 
 - CSS
 - HTML
 - JavaScript
+- Python
+- Jupyter Notebook
 
 ## Project Link
 
