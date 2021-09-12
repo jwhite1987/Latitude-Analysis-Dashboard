@@ -3,7 +3,7 @@
 
 ## Project Description
 
-Using the previous project of Latitude Analysis, the goal of this project is to build a website consisting of 7 pages total, including:
+The goal of this project is to build a website based upon a previous project, [Open Weather Map](https://github.com/jimmywhite1987/Open-Weather-Map). The website will contain the following pages, along with the data collected, analyzed, and visualized from the previous project.
 
 * A landing page containing:
   * An explanation of the project.
