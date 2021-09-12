@@ -38,7 +38,13 @@ Using the previous project of Latitude Analysis, the goal of this project is to 
 - [Project Link](https://jimmywhite1987.github.io/Latitude-Analysis-Dashboard/)
 
 ## Screenshots
-![image](/Images/screenshot.png)
+![image](/Images/screenshot1.png)
+
+![image](/Images/screenshot2.png)
+
+![image](/Images/screenshot3.png)
+
+![image](/Images/screenshot4.png)
 
 ## Links
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
