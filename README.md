@@ -51,3 +51,5 @@ The goal of this project is to build a website based upon a previous project, [O
 ## Links
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
 - [LinkedIn](https://www.linkedin.com/in/jimmywhite1987)
+- [Full Resume](https://jwhiteanalytics.com/JWhite%20Resume.pdf)
+- [GitLab](https://gitlab.com/jimmywhite1987)
