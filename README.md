@@ -37,7 +37,7 @@ The goal of this project is to build a website based upon a previous project, [O
 
 ## Project Link
 
-- [Project Link](https://jimmywhite1987.github.io/Latitude-Analysis-Dashboard/)
+- [Project Link](https://jwhite1987.github.io/Latitude-Analysis-Dashboard/)
 
 ## Screenshots
 ![image](/Images/screenshot1.png)
@@ -50,6 +50,6 @@ The goal of this project is to build a website based upon a previous project, [O
 
 ## Links
 - [JWhiteAnalytics.com](https://jwhiteanalytics.com)
-- [LinkedIn](https://www.linkedin.com/in/jimmywhite1987)
-- [Full Resume](https://jwhiteanalytics.com/JWhite%20Resume.pdf)
+- [LinkedIn](https://www.linkedin.com/in/jwhite1987)
+- [Full Resume](https://jwhiteanalytics.com/JWhite%20DataAnalyst.pdf)
 - [GitLab](https://gitlab.com/jimmywhite1987)
