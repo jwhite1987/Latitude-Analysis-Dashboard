@@ -1,5 +1,5 @@
 # `Latitude Analysis Dashboard`
-* [Tableau Visualization](https://public.tableau.com/app/profile/j.white5586/viz/LatitudeAnalysisDashboard/LatitudeComparisonCharts?publish=yes)
+[Tableau Visualization](https://public.tableau.com/app/profile/j.white5586/viz/LatitudeAnalysisDashboard/LatitudeComparisonCharts?publish=yes)
 
 ## Project Description
 
