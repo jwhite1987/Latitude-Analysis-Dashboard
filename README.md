@@ -1,5 +1,5 @@
 # `Latitude Analysis Dashboard`
-
+* [Tableau Visualization](https://public.tableau.com/app/profile/j.white5586/viz/LatitudeAnalysisDashboard/LatitudeComparisonCharts?publish=yes)
 
 ## Project Description
 
@@ -27,7 +27,6 @@ The goal of this project is to build a website based upon a previous project, [O
   * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
   * Is responsive (using media queries).
 
-* [Tableau Visualization](https://public.tableau.com/app/profile/j.white5586/viz/LatitudeAnalysisDashboard/LatitudeComparisonCharts?publish=yes)
 
 ## Languages & Technology Used
 
