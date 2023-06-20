@@ -1,6 +1,7 @@
 # `Latitude Analysis Dashboard`
 [Tableau Visualization](https://public.tableau.com/app/profile/j.white5586/viz/LatitudeAnalysisDashboard/LatitudeComparisonCharts?publish=yes)
 
+
 ## Project Description
 
 The goal of this project is to build a website based upon a previous project, [Open Weather Map](https://github.com/jimmywhite1987/Open-Weather-Map). The website will contain the following pages, along with the data collected, analyzed, and visualized from the previous project.
